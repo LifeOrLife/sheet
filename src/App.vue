@@ -13,7 +13,8 @@ const list = reactive([
     { src: 'https://visualgo.net/en', name: '算法演示' },
     { src: 'https://regex-vis.com/', name: '正则表达式匹配效果' },
     { src: 'https://pattern.windliang.wang', name: '前端设计模式' },
-    { src: 'https://yqnn.github.io/svg-path-editor/', name: 'svg在线编辑' }
+    { src: 'https://yqnn.github.io/svg-path-editor/', name: 'svg在线编辑' },
+    { src: 'https://interview2.poetries.top/docs/base.html', name: '前端面试指南' }
 ]);
 const active = ref(list[0].src);
 const switchActive = (item: Item) => {
